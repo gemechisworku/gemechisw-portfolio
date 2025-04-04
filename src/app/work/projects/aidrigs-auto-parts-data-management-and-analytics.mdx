@@ -1,0 +1,40 @@
+---
+title: "Auto Parts Data Management and Analytics Tool"
+publishedAt: "2025-04-03"
+summary: "Development of auto parts data, quote history management and analytics tool built with Retool and Cloud sql."
+images:
+  - "/images/projects/aidrigs/aidrigs-01.png"
+  - "/images/projects/aidrigs/aidrigs-02.png"
+  - "/images/projects/aidrigs/aidrigs-03.png"
+  - "/images/projects/aidrigs/aidrigs-04.png"
+team:
+  - name: "Gemechis Worku"
+    role: "Software Engineer and Data Scientist"
+    avatar: "/images/ppic.jpg"
+    linkedIn: "https://www.linkedin.com/gemechisw/"
+---
+
+## Overview
+
+Development of auto parts data, quote history management and analytics tool built with Retool and Cloud sql.
+
+## Key Features
+
+- **CSV Upload**: Bulk-upload functionality is available for every features that require data entry, with seamless error, missing, and invalid data handling.
+- **Robust Data Validation**: Data validation step is added for any data upload or manual data entry processes.
+- **Interactive and Informative Dashboard**: Tables, charts, and other dashboard elements for easier data visualization and reporting.
+- **Data Export**: Any data visualized in table can be filtered, selected and exported either in csv or PDF format.
+
+## Technologies Used
+
+- **Retool**: Low-code UI builder, built on top of react.
+- **Cloud sql - Mysql**: Google cloud platform service for data storage.
+- **BiqQuery**: Google cloud platform service for big data analytics.
+
+## Challenges and Learnings
+
+The challenge was designing a scalable, high-performance database to store auto parts equivalency and application data, where parts have transitive relationships (e.g., Part A ≡ Part B, Part B ≡ Part C). To handle this, we used joint-tables to store many-to-many relationships, ensuring effective storage and retrieval while preventing duplicates and data anomalies. This experience highlighted the importance of understanding business operations to improve system and database design.
+
+## Outcome
+
+The tool is now actively used by the company to manage auto parts information and track quote history, with many features currently in development.
